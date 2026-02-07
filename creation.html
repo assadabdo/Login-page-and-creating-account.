@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css/login.css" />
+
+    <title>Creat account</title>
+  </head>
+  <body>
+    <div class="container login">
+      <form action method="post">
+        <input type="text input" placeholder="First name" required />
+        <input type="text" placeholder="Last name" required />
+        <input type="text" placeholder="Id" required />
+        <input type="email" placeholder="Email" required />
+        <input type="password" placeholder="Password" required />
+        <input type="password" placeholder="confirmed password" required />
+        <div class="the-birth">
+          <label for="birth">Date of birth</label>
+          <input type="date" id="birth" />
+        </div>
+        <select required>
+          <option value="">Select Country</option>
+          <option>USA</option>
+          <option>Canada</option>
+          <option>UK</option>
+          <option>Germany</option>
+          <option>France</option>
+          <option>Italy</option>
+          <option>Spain</option>
+          <option>Japan</option>
+          <option>Australia</option>
+          <option>Brazil</option>
+        </select>
+        <input type="submit" class="button sign" />
+      </form>
+      <p class="footer">
+        Already have account?<a href="login.html">Sign in</a>
+      </p>
+    </div>
+  </body>
+</html>

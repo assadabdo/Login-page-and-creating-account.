@@ -1,0 +1,114 @@
+* {
+  font-family: system-ui;
+}
+body {
+  background-color: #d5d7ef;
+}
+
+.login {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  flex-direction: column;
+  background-color: white;
+  width: 352px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 0px #6f99ba;
+}
+
+.login input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 7px;
+  background-color: rgb(236 236 236);
+  border-width: 0px;
+  border-radius: 2px;
+  font-size: 17px;
+  width: 280px;
+}
+.login select {
+  background-color: rgb(236 236 236);
+  width: 280px;
+  font-size: 17px;
+  margin: 7px;
+  border-width: 0px;
+  border-radius: 2px;
+}
+.login .sign {
+  background-color: rgb(107, 107, 234);
+  color: white;
+  width: 280px;
+  cursor: pointer;
+}
+.sign:hover {
+  background-color: blue;
+}
+.login h2 {
+  display: flex;
+  justify-content: center;
+  width: 280px;
+}
+h4 {
+  display: flex;
+  justify-content: center;
+  /* font-weight: 400; */
+  width: 280px;
+}
+.social-links {
+  display: flex;
+  flex-direction: column;
+}
+.social-links a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  margin: 7px;
+  background-color: rgb(107, 107, 234);
+  border-radius: 2px;
+  width: 280px;
+}
+.social-links a:hover {
+  background-color: blue;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  width: 280px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: rgb(107, 107, 234);
+}
+.footer a:hover {
+  color: blue;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+.social-links img {
+  width: 35px;
+}
+form .the-birth {
+  width: 280px;
+}
+.the-birth {
+  display: flex;
+  justify-content: flex-start;
+}
+#birth {
+  flex-grow: 4;
+  width: 0px;
+}
+.the-birth label {
+  align-self: center;
+}
